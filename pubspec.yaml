@@ -1,6 +1,6 @@
 name: sm_fitrus
 description: "A new Flutter project."
-version: 1.0.8
+version: 1.0.9
 homepage:
 
 environment:
@@ -11,15 +11,20 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  fluttertoast: ^9.0.0
-  connectivity_plus: ^7.0.0
-  flutter_blue_plus: ^2.1.0
+  fluttertoast: ^10.0.2
+  connectivity_plus: ^7.3.2
+  flutter_blue_plus: ^2.3.14
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
   mocktail: ^1.0.4
+
+
+dependency_overrides: 
+  dbus: ^0.8.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
